@@ -22,11 +22,11 @@ def calculate(numbers):
     return average
 
 def main():
-    print("вычисляем среднее из 7 чисел Фибоначчи")
+    print("вычисляем среднее из 8 чисел Фибоначчи")
     print("=" * 50)
     
     # 7 чисел Фибоначчи
-    fib_numbers = fibonacci(7)
+    fib_numbers = fibonacci(8)
     
     # Среднее
     average = calculate(fib_numbers)
